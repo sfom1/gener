@@ -1,1 +1,33 @@
+header.gener {
+ text-align: center;   
+ 
+}
 
+#blue {
+    background-color: blue;
+    width: 350px;
+    height: 350px;
+    float: left;
+    display: block;
+    
+}
+
+#red {
+    background-color: red;
+    width: 350px;
+    height: 350px;
+    display: block;
+    float: left;
+}
+
+#yellow {
+    background-color: yellow;
+    width: 350px;
+    height: 350px;
+    display: block;
+    float: left;
+}
+
+#green {
+    background-color: green;
+}
