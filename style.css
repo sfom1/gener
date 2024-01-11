@@ -3,31 +3,42 @@ header.gener {
  
 }
 
-#blue {
+.line {
+    display: inline;
+}
+
+p1.aqua {
+    background-color: aqua;
+}
+.red {
     background-color: blue;
+    display:flex;
+    justify-content: center;
     width: 350px;
     height: 350px;
-    float: left;
-    display: block;
-    
+    display: inline-block;
 }
-
-#red {
+.blue {
     background-color: red;
+    justify-content: center;
+    display:flex;
     width: 350px;
-    height: 350px;
-    display: block;
-    float: left;
+    height:350px;
+    display: inline-block;
 }
-
-#yellow {
+.yellow {
     background-color: yellow;
+    justify-content: center;
+    display:flex;
     width: 350px;
     height: 350px;
-    display: block;
-    float: left;
+    display: inline-block;
 }
-
-#green {
+.green {
     background-color: green;
+    justify-content: center;
+    display:flex;
+    width: 2500px;
+    height: 50px;
+    display: inline-block;
 }
